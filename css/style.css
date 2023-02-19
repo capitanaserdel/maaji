@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.disclaimer{
+    display: none;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-list-side{
+    margin-top: 100px;
+}
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 10px;
+}
+#main-section, #main-section-interaction{
+    width:100%;
+}
+
+#interaction, #interaction-interaction{
+    background-color: #f2f2f2;
+    min-height: 99vh;
+    max-height: 100vh;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.top-header{
+    top: 0;
+}
+
+.nav-logo{
+    width:100px;
+}
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+}
+
+.nav-columns{
+    width: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: #057A55;
+    transition: .5s;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+
+}
+.nav-columns td{
+    width: 25%;
+    transition: .5s;
+}
+.nav-columns label{
+    position: relative;
+    font-size: 15px;
+    margin: 0;
+    margin-top: -10px;
+    display: block;
+}
+
+.nav-columns .active{
+    color: #03543F;
+}
+.nav-columns .td:hover {
+    transform: scale(1.2);
+    color: #03543F;
+}
+
+.profile-photo-container {
+    width: auto;
+}
+
+.chat-input:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+.single-top h4{
+    font-size: 27px;
+    color: #303030;
+    text-align:left;
+    padding: 15px 0px;
+    margin: 0px;
+    font-weight:1000px;
+    padding-left: 50px;
+}
+.third{
+    padding-left: 50px;
+    padding-right: 370px ;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.second-container{
+
+    width: 600px;
+    padding-left: 50px;
+
+}
+.secondary-container{
+    position: float;
+    padding-left: 350px;
+}
+
+#amount, #term, #payment, #interest {
+width: 500px;
+margin-bottom: 2px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.nav-logo{
+    width:100px;
+
+}
+.private-container{
+    font-size: 20px;
+}
+
+.contact-list-side{
+    margin-top: -30px;
+}
+.second-container{
+
+    width: 600px;
+    padding-left: 0px;
+
+
+}
+.secondary-container{
+    position: float;
+    padding-left: 20px;
+    padding-right:0px;
+}
+#amount, #term, #payment, #interest {
+width: 350px;
+margin-bottom: 2px;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding-top: 120px;
+    }
+    #main-section, #interaction-interaction{
+        width:100%;
+    }
+    #interaction, #main-section-interaction {
+        display: none;
+    }
+.top-header{
+    width: 100%;
+    top: 0;
+}
+
+.nav-logo{
+    width:100px;
+}
+
+.bottom-nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 10px;
+    background: #fff;
+}
+
+.nav-columns{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #057A55;
+    transition: .5s;
+    margin: 0;
+    cursor: pointer;
+
+}
+.nav-columns td{
+    width: 25%;
+    transition: .5s;
+}
+.nav-columns label{
+    position: relative;
+    font-size: 15px;
+    margin: 0;
+    margin-top: -10px;
+    display: block;
+}
+
+.nav-columns .active{
+    color: #03543F;
+}
+.nav-columns td:hover {
+    color: #03543F;
+}
+
+}
+
